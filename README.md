@@ -64,10 +64,7 @@ Options:
   -o <output_path>    Write Markdown output to this file instead of ./file2md/output.md.
 ```
 
-/\*\*
-
-- `file2md` in this case is the shell alias that points to the script.
-  \*/
+_`file2md` in this case is the shell alias that points to the script._
 
 ### First run
 
