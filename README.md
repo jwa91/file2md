@@ -1,6 +1,6 @@
 # File2md
 
-A powerful Zsh script that converts files and directory structures into a well-formatted Markdown document, ideal for sharing code with Large Language Models (LLMs).
+A Zsh script that converts files and directory structures into a well-formatted Markdown document, ideal for sharing code with Large Language Models (LLMs).
 
 ## In short
 
@@ -64,12 +64,18 @@ Options:
   -o <output_path>    Write Markdown output to this file instead of ./file2md/output.md.
 ```
 
+/\*\*
+
+- `file2md` in this case is the shell alias that points to the script.
+  \*/
+
 ### First run
 
 When you first run the script in a project:
 
 1. It creates a `file2md` directory in your current working directory.
 2. It generates default configuration files:
+
    - `file2md/files.txt`: A template input file with example syntax
    - `file2md/.file2mdignore`: A default global ignore file with common patterns
 
