@@ -4,7 +4,7 @@ A Zsh script that converts files and directory structures into a well-formatted 
 
 ## In short
 
-File2md takes a list of files and directories from your project, processes them according to your specifications, and generates a Markdown file containing their contents in syntax-highlighted code blocks. It also automatically copies the output to your clipboard, ready to paste into your favorite LLM for context.
+File2md takes a list of files and directories from your project, processes them according to your specifications, and generates a Markdown file containing their contents in code blocks. It also automatically copies the output to your clipboard, ready to paste into your favorite LLM for context.
 
 ## Table of content
 
