@@ -1,0 +1,17 @@
+# Recursive Directory Scan Example
+
+## Project Overview
+README.md
+package.json
+
+## All Component Files
+# Using the -r flag to recursively process all files in the components directory
+src/components/ -r
+
+## All Utility Functions
+# Another recursive scan, this time for the utils directory
+src/utils/ -r
+
+## Test Files
+# Just the API test file
+test/integration/api.test.js

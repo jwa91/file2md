@@ -1,0 +1,28 @@
+# Special Path Characters Example
+
+## Project Overview
+README.md
+package.json
+next.config.js
+
+## Main App Files
+# Note: These paths don't contain special characters, so quotes are optional
+app/layout.js
+app/page.js
+
+## Dynamic Routes with Square Brackets
+# Note: Paths with special characters like [] MUST be quoted
+"app/blog/[slug]/page.js"
+"app/products/[productId]/page.js"
+"app/products/[productId]/reviews/[reviewId]/page.js"
+
+## Routes with Parentheses
+# Note: Paths with special characters like () MUST be quoted
+"app/dashboard/(auth)/login/page.js"
+"app/dashboard/(auth)/signup/page.js"
+
+## Directory Structure
+# For tree views, the parent directory should be quoted when any part of the path contains special characters
+"app/blog" -t -r
+"app/products" -t -r
+"app/dashboard" -t -r

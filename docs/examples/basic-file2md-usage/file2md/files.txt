@@ -1,0 +1,14 @@
+# Basic File2md Example
+## Project Files
+
+# Let's include the project's README
+README.md
+
+# Include the main package.json file
+package.json
+
+## Source Code
+
+# Just the individual files we want to include
+src/index.js
+src/config.js

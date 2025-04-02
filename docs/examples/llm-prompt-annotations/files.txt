@@ -1,0 +1,31 @@
+# LLM Prompt Annotations Example
+
+## Instructions for the AI
+I'm providing the code for a React application that needs to be refactored. Please analyze the provided files and help me:
+1. Identify potential performance issues
+2. Suggest improvements to the component structure
+3. Identify any security concerns in the API implementation
+
+## Project Documentation
+README.md
+package.json
+
+## API Implementation
+The API file below has some security issues I'd like you to identify:
+src/api.js
+
+## Component Structure
+These components need to be reviewed for performance and reusability:
+src/components/Button.js
+src/components/Card.js
+src/components/Input.js
+
+## Configuration
+The configuration below is used throughout the application and might need to be restructured:
+src/config.js
+
+## Please focus on these specific questions:
+1. How can we prevent XSS attacks in our API?
+2. What component patterns should we use to improve reusability?
+3. Is there a better way to manage our configuration?
+4. Are there any memory leaks in the components?

@@ -1,0 +1,22 @@
+# Tree View Example
+
+## Project Structure
+# Show just the src directory structure non-recursively
+src/ -t
+
+# Show the components directory structure recursively
+src/components/ -t -r
+
+## Project Files
+# Include the project's README and package.json
+README.md
+package.json
+
+## Key Component Files
+# Include the Form.js and Layout components
+src/components/Form/Form.js
+src/components/Layout/ -r
+
+## Styles
+# Include all style files
+src/styles/ -r

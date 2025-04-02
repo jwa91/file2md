@@ -1,0 +1,11 @@
+# Global ignore patterns (gitignore syntax)
+.git/
+.DS_Store
+file2md/
+node_modules/
+dist/
+logs/
+*.log
+
+# Specific to this example - ignore temp development files
+src/temp/

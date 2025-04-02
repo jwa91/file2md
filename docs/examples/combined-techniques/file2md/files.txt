@@ -1,0 +1,51 @@
+# Combined File2md Techniques Example
+
+## Project Overview
+# Start with a brief summary of the project
+README.md shows the overall project information and setup instructions.
+
+# Include key documentation and configuration files
+README.md
+CONTRIBUTING.md
+package.json
+
+## Project Structure
+# First show the overall source structure
+src/ -t
+
+# Then show component structure more in-depth
+src/components/ -t -r
+
+## Core Code
+# Main entry point
+src/index.js
+
+# Config files using recursively scan with exclusions
+src/config/ -r
+
+# Utils - select just the specific files we want
+src/utils/api.js
+src/utils/validation.js
+
+## Component Examples
+# Common components - the full directory recursively
+src/components/common/ -r
+
+# Just the Home page component
+src/components/pages/Home.js
+
+## Styles
+# All style files
+src/styles/ -r -e "*.map.css"
+
+## Documentation
+# Documentation directory (excluding API docs with local ignore)
+docs/ -e "api.md"
+
+## Tests
+# Show a tree view of all tests
+test/ -t -r
+
+# Include only specific test files we need
+test/unit/components/Button.test.js
+test/integration/api.test.js

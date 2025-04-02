@@ -1,0 +1,7 @@
+# Global ignore patterns
+.git/
+.DS_Store
+node_modules/
+build/
+*.log
+file2md/

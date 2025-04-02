@@ -1,0 +1,20 @@
+# Using Ignore Patterns Example
+
+## Project Overview
+README.md
+package.json
+
+## Source Code (Global Ignores)
+# Recursive scan of src directory, using global ignores from .file2mdignore
+# (node_modules, logs, dist, src/temp, etc.)
+src/ -r
+
+## Directory with Local Ignores
+# Same directory scan but with local ignore patterns
+# This only works for file content scanning, not for tree view (-t) functionality
+src/ -r -e "*.js.map" --exclude debug.js
+
+## Show Tree with Excludes
+# Note: Local excludes with -e don't work for tree views
+# Tree views only respect the global .file2mdignore patterns
+src/ -t -r

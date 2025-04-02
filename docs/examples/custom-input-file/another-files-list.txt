@@ -1,0 +1,12 @@
+# Custom Input File Example - API Documentation
+
+## API Module Overview
+# This file contains a list of API-related files to document
+
+## API Endpoints
+src/api/users.js
+src/api/products.js
+
+## API Tests
+test/api/users.test.js
+test/api/products.test.js
